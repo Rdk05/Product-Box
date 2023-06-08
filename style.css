@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1.7;
+}
+
+.container{
+    display: flex;
+    gap: 30px;
+}
+
+.item{
+    width: 70%;
+    margin: 60px auto;
+    border: 3px solid black;
+    position: relative;
+
+}
+
+.item-title{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: rgb(245, 242, 236);
+}
+
+.item-info{
+    margin: 10px;
+    flex:1 ;
+}
+
+.item-price{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+
+}
+.price{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.delivery{
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+    align-self: center;
+}
+
+.offer{
+    position: absolute;
+    top: -15px;
+    left: -50px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    letter-spacing: 2px;
+
+
+}
+.item-detail{
+    margin: 10px;
+}
+.more-detail:link, .more-detail:visited{
+    color: black;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.more-detail:hover{
+    text-decoration: underline;
+}
+
+.color{
+    height: 20px;
+    width: 20px;
+    background-color: gray;
+    display: inline-block;
+    border-radius: 25px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.color:hover{
+    background-color: white;
+}
+
+.color-green{
+    background-color: green;
+}
+
+.color-yellow{
+    background-color: yellow;
+}
+
+.color-violet{
+    background-color: violet;
+}
+
+.color-purple{
+    background-color: purple;
+}
+
+.color-blue{
+    background-color: blue;
+}
+.item-desc{
+    flex: 1;
+    margin: 10px;
+}
+.decs-list{
+    margin-left: 50px;
+    list-style-type: square;
+}
+
+.desc-title{
+    margin-left: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.desc-list li{
+    margin-bottom: 10px;
+    
+
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.add-to-cart{
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    background-color: yellowgreen;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    width: 20%;
+    margin-top: 5px;
+    border-top: 3px solid black;
+    border-radius: 15px;
+   
+}
+
+.add-to-cart:hover{
+    background-color: gray;
+}
+
+.buy{
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    width: 20%;
+    margin-top: 5px;
+    border-top: 3px solid black;
+    border-radius: 15px;
+}
+.buy:hover{
+    background-color: gray;
+}
